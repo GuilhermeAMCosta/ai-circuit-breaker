@@ -1,4 +1,5 @@
+BASE_DIR := app
 PYTHONPATH := $(shell pwd)
 
 run:
-	@PYTHONPATH="${PYTHONPATH}" python ./app/main.py
+	@PYTHONPATH="${PYTHONPATH}" python ${BASE_DIR}/main.py

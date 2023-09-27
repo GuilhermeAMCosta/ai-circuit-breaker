@@ -1,6 +1,6 @@
 from fastapi import APIRouter, status
 
-from app.version import __version__
+from app import __version__
 
 router = APIRouter(tags=["Helpers"])
 
